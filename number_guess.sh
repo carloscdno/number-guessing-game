@@ -21,7 +21,7 @@ else
 fi
 
 # Play the game
-# Generate a random number between 1 and 1000
+# Generate a random number between 1 and 1000 and initialize a counter for the number of guesses
 secret_number=$((RANDOM % 1000 + 1))
 num_guess=0
 while true; do
